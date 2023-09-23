@@ -15,6 +15,8 @@ public class Questao1 {
             pilha.push(scanner.nextLine());
 
         }
+        System.out.println("O tamanho é." + pilha.size());
+        System.out.println("Pilha com nomes");
         for (int i =0;i<10;i++){
             System.out.println(pilha.pop());
         }
